@@ -9,21 +9,21 @@
 
 * To perform a `GET` request for `http://google.com`:
 
-      ```sh
-      curl -vs -D - http://google.com -o /dev/null 2>&1 | grep -v '^\w'
-      ```
+```shell
+curl -vs -D - http://google.com -o /dev/null 2>&1 | grep -v '^\w'
+```
 
 * To perform a `GET` request for `http://www.google.com`:
 
-      ```sh
-      curl -vs -D - http://www.google.com -o /dev/null 2>&1 | grep -v '^\w'
-      ```
+```shell
+curl -vs -D - http://www.google.com -o /dev/null 2>&1 | grep -v '^\w'
+```
 
 * To perform a `GET` request for `https://www.google.com`:
 
-      ```sh
-      curl -vs -D - https://www.google.com -o /dev/null 2>&1 | grep -v '^\w'
-      ```
+```shell
+curl -vs -D - https://www.google.com -o /dev/null 2>&1 | grep -v '^\w'
+```
 
 ## Running the application
 
